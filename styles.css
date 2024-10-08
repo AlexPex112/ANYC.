@@ -1,4 +1,8 @@
-/* Background styles */
+@font-face {
+    font-family: lsb;
+    src: url(lsb.ttf);
+}
+
 body {
     margin: 0;
     height: 100vh;
@@ -17,23 +21,23 @@ body {
     background-color: rgba(17, 25, 40, 0.75);
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.125);
-    padding: 30px; /* Increased padding for more spacing */
-    width: 350px; /* Slightly wider card */
+    padding: 30px;
+    width: 350px;
     box-shadow: 0 4px 20px rgba(0,0,0,0.5);
 }
 
 .svg-title {
     text-align: center;
     color: white;
-     /* Added margin for spacing below title */
 }
 
 .input-group {
-    margin-bottom: 20px; /* Increased bottom margin for input groups */
+    margin-bottom: 20px;
 }
 
 input {
-    width: calc(100% - 20px); /* Adjust width for padding */
+    font-family: lsb;
+    width: calc(100% - 20px);
     padding: 10px;
     border-radius: 5px;
     border: none;
@@ -42,7 +46,8 @@ input {
 }
 
 button {
-    width: calc(100% - 100px); /* Adjust width for padding */
+    font-family: lsb;
+    width: calc(100% - 100px);
     padding: 10px;
     border-radius: 5px;
     border: none;

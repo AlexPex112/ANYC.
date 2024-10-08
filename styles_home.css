@@ -1,3 +1,9 @@
+@font-face {
+    font-family: lsb;
+    src: url(lsb.ttf);
+}
+
+
 body {
     margin: 0;
     height: 100vh;
@@ -16,8 +22,8 @@ body {
     background-color: rgba(17, 25, 40, 0.75);
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.125);
-    padding: 30px; /* Increased padding for more spacing */
-    width: 350px; /* Slightly wider card */
+    padding: 30px;
+    width: 350px;
     box-shadow: 0 4px 20px rgba(0,0,0,0.5);
 }
 
@@ -27,12 +33,14 @@ body {
 }
 
 h1 {
+    font-family: lsb;
     font-size: 2rem;
     margin-bottom: 35px;
 }
 
 button {
-    width: calc(100% - 100px); /* Adjust width for padding */
+    font-family: lsb;
+    width: calc(100% - 100px);
     padding: 10px;
     border-radius: 5px;
     border: none;
